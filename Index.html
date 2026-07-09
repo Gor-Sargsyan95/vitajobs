@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO -->
+    <title>VITA Jobs | Recrutement de saisonniers agricoles et viticoles en France</title>
+    <meta name="description" content="VITA Jobs, agence de recrutement à Angers. Personnel saisonnier qualifié pour viticulture, maraîchage, horticulture et travaux agricoles. Accompagnement complet, suivi sur site et remplacement rapide sur toute la France.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="VITA Jobs | Recrutement de saisonniers agricoles et viticoles">
+    <meta property="og:description" content="Personnel saisonnier qualifié et expérimenté pour vos exploitations. Accompagnement complet et remplacement rapide.">
+    <meta property="og:url" content="https://vitajobs.fr">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://vitajobs.fr/og-image.jpg">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; }
+        .logo { height: 42px; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- NAV -->
+    <nav class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <img src="logo.png" alt="VITA Jobs" class="logo">
+                <div class="flex items-center gap-x-4">
+                    <a href="tel:+33755633315" class="flex items-center gap-x-2 text-emerald-700 font-medium">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>07 55 63 33 15</span>
+                    </a>
+                    <button onclick="document.getElementById('form-section').scrollIntoView({ behavior: 'smooth' })" 
+                            class="bg-emerald-700 text-white px-6 py-2.5 rounded-xl font-semibold">
+                        Je recrute
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="relative h-[620px] flex items-center justify-center overflow-hidden">
+        <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover"
+               poster="https://images.unsplash.com/photo-1500076656116-558758c991c1?w=1600&q=80">
+            <source src="https://assets.mixkit.co/videos/preview/1572/1572-small.mp4" type="video/mp4">
+        </video>
+        <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/55 to-black/80"></div>
+
+        <div class="relative z-10 max-w-4xl mx-auto px-5 text-center text-white">
+            <div class="inline-block bg-white/10 px-4 py-1.5 rounded-full mb-6 text-sm">4 ans d'expérience • Toute la France</div>
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tighter leading-tight mb-6">
+                Des saisonniers expérimentés<br>et fiables pour votre exploitation
+            </h1>
+            <p class="text-lg text-slate-200 mb-8">Recrutement rapide • Accompagnement complet • Remplacement dans les meilleurs délais</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button onclick="document.getElementById('form-section').scrollIntoView({ behavior: 'smooth' })" 
+                        class="bg-white text-emerald-800 font-semibold px-8 py-4 rounded-2xl text-lg">
+                    Demander un devis gratuit
+                </button>
+                <a href="tel:+33755633315" class="border border-white/50 font-semibold px-8 py-4 rounded-2xl flex items-center justify-center gap-x-2">
+                    <i class="fa-solid fa-phone"></i> Appeler
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- COMMENT ÇA MARCHE -->
+    <section class="max-w-5xl mx-auto px-5 py-16">
+        <div class="text-center mb-12">
+            <span class="bg-blue-100 text-blue-700 px-4 py-1 rounded-full text-sm font-semibold">SIMPLE ET EFFICACE</span>
+            <h2 class="text-3xl font-bold mt-4">Comment ça marche ?</h2>
+        </div>
+        <div class="grid md:grid-cols-4 gap-8">
+            <div class="text-center">
+                <div class="w-12 h-12 bg-emerald-700 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
+                <h3 class="font-semibold mb-2">Vous nous contactez</h3>
+                <p class="text-sm text-slate-600">Vous remplissez le formulaire ou nous appelez.</p>
+            </div>
+            <div class="text-center">
+                <div class="w-12 h-12 bg-emerald-700 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
+                <h3 class="font-semibold mb-2">Nous analysons vos besoins</h3>
+                <p class="text-sm text-slate-600">Nous définissons le profil idéal et les dates.</p>
+            </div>
+            <div class="text-center">
+                <div class="w-12 h-12 bg-emerald-700 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
+                <h3 class="font-semibold mb-2">Nous vous présentons les candidats</h3>
+                <p class="text-sm text-slate-600">Vous recevez rapidement des profils adaptés.</p>
+            </div>
+            <div class="text-center">
+                <div class="w-12 h-12 bg-emerald-700 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">4</div>
+                <h3 class="font-semibold mb-2">Nous assurons le suivi</h3>
+                <p class="text-sm text-slate-600">Visites sur site et remplacement si nécessaire.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- POURQUOI NOUS -->
+    <section class="bg-white py-16 border-y">
+        <div class="max-w-6xl mx-auto px-5">
+            <div class="text-center mb-12">
+                <span class="text-emerald-600 font-semibold">NOTRE DIFFÉRENCE</span>
+                <h2 class="text-3xl font-bold mt-3">Pourquoi les employeurs choisissent VITA Jobs</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-50 p-8 rounded-3xl">
+                    <i class="fa-solid fa-user-check text-3xl text-emerald-700 mb-4"></i>
+                    <h3 class="font-semibold text-xl mb-3">Personnel déjà qualifié</h3>
+                    <p class="text-slate-600">La grande majorité de nos travailleurs ont déjà plusieurs saisons d’expérience en France.</p>
+                </div>
+                <div class="bg-slate-50 p-8 rounded-3xl">
+                    <i class="fa-solid fa-handshake text-3xl text-emerald-700 mb-4"></i>
+                    <h3 class="font-semibold text-xl mb-3">Accompagnement complet</h3>
+                    <p class="text-slate-600">Nous restons à vos côtés tout au long du contrat : visites, traduction, médiation.</p>
+                </div>
+                <div class="bg-slate-50 p-8 rounded-3xl">
+                    <i class="fa-solid fa-sync text-3xl text-emerald-700 mb-4"></i>
+                    <h3 class="font-semibold text-xl mb-3">Remplacement rapide</h3>
+                    <p class="text-slate-600">En cas d’absence, nous trouvons un remplaçant dans les meilleurs délais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- НОВЫЙ БЛОК ДЛЯ SEO: NOS SERVICES -->
+    <section class="max-w-6xl mx-auto px-5 py-16">
+        <div class="text-center mb-12">
+            <span class="text-emerald-600 font-semibold">NOS SERVICES</span>
+            <h2 class="text-3xl font-bold mt-3">Dans quels secteurs intervenons-nous ?</h2>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-2xl border">
+                <h3 class="font-semibold text-lg mb-2">Viticulture</h3>
+                <p class="text-slate-600 text-sm">Taille, vendanges, attachage, entretien des vignes, travaux en vert.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border">
+                <h3 class="font-semibold text-lg mb-2">Maraîchage & Légumes</h3>
+                <p class="text-slate-600 text-sm">Récolte, désherbage, plantation, entretien des cultures maraîchères.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border">
+                <h3 class="font-semibold text-lg mb-2">Horticulture & Fleurs</h3>
+                <p class="text-slate-600 text-sm">Travaux en pépinière, entretien des espaces verts, récolte florale.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border">
+                <h3 class="font-semibold text-lg mb-2">Construction & Bâtiment</h3>
+                <p class="text-slate-600 text-sm">Ouvriers qualifiés pour chantiers, gros œuvre et second œuvre.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border">
+                <h3 class="font-semibold text-lg mb-2">Hôtellerie & Restauration</h3>
+                <p class="text-slate-600 text-sm">Personnel saisonnier pour hôtels, restaurants et campings.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border">
+                <h3 class="font-semibold text-lg mb-2">Autres travaux agricoles</h3>
+                <p class="text-slate-600 text-sm">Tous types de travaux saisonniers en agriculture et agroalimentaire.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- ФОРМА (ИСПРАВЛЕННАЯ ВЕРСИЯ) -->
+<section id="form-section" class="max-w-5xl mx-auto px-5 py-16">
+    <div class="bg-white border shadow-xl rounded-3xl p-8 md:p-10">
+        <h2 class="text-3xl font-bold text-center mb-8">Déposez votre demande de personnel</h2>
+
+        <form id="recruitment-form">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-5">
+                <div>
+                    <label class="block text-sm font-medium mb-1.5">Nom de l’entreprise *</label>
+                    <input type="text" id="company" required class="w-full border border-slate-300 rounded-2xl px-4 py-3">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-1.5">Prénom et Nom du contact *</label>
+                    <input type="text" id="contact" required class="w-full border border-slate-300 rounded-2xl px-4 py-3">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-1.5">Téléphone *</label>
+                    <input type="tel" id="phone" required class="w-full border border-slate-300 rounded-2xl px-4 py-3">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-1.5">Email *</label>
+                    <input type="email" id="email" required class="w-full border border-slate-300 rounded-2xl px-4 py-3">
+                </div>
+
+                <div class="md:col-span-2">
+                    <label class="block text-sm font-medium mb-1.5">Type d’activité *</label>
+                    <select id="activity" required class="w-full border border-slate-300 rounded-2xl px-4 py-3 bg-white">
+                        <option value="">Sélectionnez une activité</option>
+                        <option value="Viticulture">Viticulture (taille, vendanges...)</option>
+                        <option value="Maraîchage">Maraîchage / Légumes</option>
+                        <option value="Horticulture">Horticulture / Fleurs</option>
+                        <option value="Pépinière">Pépinière / Serres</option>
+                        <option value="Construction">Bâtiment / Travaux</option>
+                        <option value="Hôtellerie">Hôtellerie / Restauration</option>
+                        <option value="Autre">Autre activité saisonnière</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium mb-1.5">Nombre de personnes *</label>
+                    <input type="number" id="number" min="1" required class="w-full border border-slate-300 rounded-2xl px-4 py-3">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-1.5">Période souhaitée</label>
+                    <input type="text" id="period" placeholder="Ex: Du 15 juin au 20 septembre" class="w-full border border-slate-300 rounded-2xl px-4 py-3">
+                </div>
+
+                <div class="md:col-span-2">
+                    <label class="block text-sm font-medium mb-1.5">Région / Département</label>
+                    <input type="text" id="region" placeholder="Ex: Maine-et-Loire, Loire-Atlantique..." class="w-full border border-slate-300 rounded-2xl px-4 py-3">
+                </div>
+
+                <div class="md:col-span-2">
+                    <label class="block text-sm font-medium mb-1.5">Message / Précisions</label>
+                    <textarea id="message" rows="3" class="w-full border border-slate-300 rounded-3xl px-4 py-3 resize-y"></textarea>
+                </div>
+            </div>
+
+            <button type="button" id="submit-btn"
+                    class="mt-8 w-full bg-emerald-700 hover:bg-emerald-800 text-white font-semibold py-4 rounded-2xl text-lg flex items-center justify-center gap-x-3">
+                Envoyer ma demande <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <p class="text-center text-xs text-slate-500 mt-4">Nous vous répondons sous 24h. Vos données restent confidentielles.</p>
+        </form>
+    </div>
+</section>
+
+<script>
+    // Надёжная версия отправки формы (лучше работает на Android)
+    document.getElementById('submit-btn').addEventListener('click', function() {
+        const company = document.getElementById('company').value || '';
+        const contact = document.getElementById('contact').value || '';
+        const phone = document.getElementById('phone').value || '';
+        const email = document.getElementById('email').value || '';
+        const activity = document.getElementById('activity').value || '';
+        const number = document.getElementById('number').value || '';
+        const period = document.getElementById('period').value || 'Non précisée';
+        const region = document.getElementById('region').value || 'Non précisée';
+        const message = document.getElementById('message').value || 'Aucun message';
+
+        const subject = encodeURIComponent('Demande de recrutement - ' + company);
+        
+        const bodyText = 
+            'Bonjour,\n\n' +
+            'Je souhaite recruter du personnel via VITA Jobs.\n\n' +
+            '--- INFORMATIONS ---\n' +
+            'Entreprise : ' + company + '\n' +
+            'Contact : ' + contact + '\n' +
+            'Téléphone : ' + phone + '\n' +
+            'Email : ' + email + '\n\n' +
+            'Activité : ' + activity + '\n' +
+            'Nombre de personnes : ' + number + '\n' +
+            'Période souhaitée : ' + period + '\n' +
+            'Région : ' + region + '\n\n' +
+            'Message :\n' + message + '\n\n' +
+            '---\n' +
+            'Cordialement,\n' + contact;
+
+        const body = encodeURIComponent(bodyText);
+
+        const mailtoLink = 'mailto:mail.jobs.v@gmail.com?subject=' + subject + '&body=' + body;
+        
+        const link = document.createElement('a');
+        link.href = mailtoLink;
+        link.click();
+    });
+</script>
+
+    <footer class="bg-white border-t py-8 text-center text-sm text-slate-500">
+        © 2026 VITA Jobs • Angers • 07 55 63 33 15 • mail.jobs.v@gmail.com
+    </footer>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "VITA Jobs",
+      "description": "Agence de recrutement de personnel saisonnier qualifié pour l'agriculture, la viticulture et l'horticulture en France.",
+      "url": "https://vitajobs.fr",
+      "telephone": "+33755633315",
+      "email": "mail.jobs.v@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Angers",
+        "addressCountry": "FR"
+      },
+      "areaServed": "France",
+      "serviceType": "Recrutement de saisonniers agricoles et viticoles"
+    }
+    </script>
+</body>
+</html>
